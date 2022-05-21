@@ -10,7 +10,7 @@ const findSumOfDigits = (n: number): number => {
   return sum;
 };
 
-const Main = (input: string): void => {
+const Main5 = (input: string): void => {
   const numbers: { N: number; A: number; B: number } = {
     N: Number(input.split(' ')[0]),
     A: Number(input.split(' ')[1]),
@@ -28,4 +28,4 @@ const Main = (input: string): void => {
 };
 
 //*この行以降は編集しないでください（標準入出力から一度に読み込み、Mainを呼び出します）
-Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
+Main5(require('fs').readFileSync('/dev/stdin', 'utf8'));

@@ -1,0 +1,7 @@
+const Main = (input: number): void => {
+  const asciiCode: string = String.fromCharCode(input);
+  console.log(asciiCode);
+};
+
+//*この行以降は編集しないでください（標準入出力から一度に読み込み、Mainを呼び出します）
+Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
